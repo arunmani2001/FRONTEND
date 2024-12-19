@@ -1,0 +1,59 @@
+/* Base styles for the Dashboard page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  .DashBoard {
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .DashBoard h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  .DashBoard p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #495057;
+    text-align: justify;
+  }
+  
+  /* Responsive Design */
+  
+  /* For small screens (phones, less than 600px) */
+  @media (max-width: 600px) {
+    .DashBoard {
+      padding: 15px;
+    }
+  
+    .DashBoard h1 {
+      font-size: 2rem;
+    }
+  
+    .DashBoard p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* For medium screens (tablets, less than 768px) */
+  @media (max-width: 768px) {
+    .DashBoard h1 {
+      font-size: 2.2rem;
+    }
+  
+    .DashBoard p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,10 +1,18 @@
 import React from 'react'
+import NavBar from './NavBar'
+import { Routes, Route } from 'react-router-dom'
+import DashBoard from './DashBoard'
+import About from './About'
 
 function Home() {
   return (
     <>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus perferendis architecto modi beatae magnam at aliquam atque. 
-        Asperiores repellendus natus debitis vitae quia laborum ut, soluta expedita, alias quidem similique?</p>
+      <NavBar/>
+      <h1>Homepage</h1>
+      <Routes>
+        <Route path='/Dashboard' element={<DashBoard/>}></Route>
+        <Route path='/about' element={<About/>}></Route>
+      </Routes>
     </>
   )
 }

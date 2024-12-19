@@ -1,3 +1,18 @@
 {
-    "Admin":[]
+  "Admin": [
+    {
+      "id": "aeb1",
+      "name": "arun",
+      "password": "1234",
+      "email": "arun@gmail.com",
+      "phone": "2143568709"
+    },
+    {
+      "id": "cef0",
+      "name": "arunkumar",
+      "password": "arun@oma1",
+      "email": "arun@gmail.com",
+      "phone": "1234567890"
+    }
+  ]
 }

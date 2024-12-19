@@ -1,0 +1,64 @@
+/* Base styles for the Navbar */
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Navbar .links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Navbar .links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .Navbar .links a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Responsive Design */
+  
+  /* For small screens (phones, less than 600px) */
+  @media (max-width: 600px) {
+    .Navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px;
+    }
+  
+    .Navbar .links {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .Navbar .links a {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+  }
+  
+  /* For medium screens (tablets, less than 768px) */
+  @media (max-width: 768px) {
+    .Navbar {
+      padding: 10px 15px;
+    }
+  
+    .Navbar .links a {
+      font-size: 15px;
+      margin-right: 10px;
+    }
+  }
+  
